@@ -25,8 +25,9 @@ The project is to analysis the recent election results for the Colorado Board of
 
 - **Winning candidate’s vote details** - The winning candidate for the election was Diane DeGette. She won the majority with a vote count of 272,892, which was 73.8% of the total votes casted this election.
 
-The outcome of the election result can be summarized by the below summary
-<<screen shot of county results>>
+The outcome of the election result can be summarized by the below summary :
+
+![This is an image](https://github.com/Josna-Aykkara/Election_Analysis/blob/79735375c8e8c26a7b0fc41d85fa42cf2c2b4e3a/Resources/Election%20Results.JPG)
 
 
 ## **Election-Audit Summary**: 
@@ -38,6 +39,8 @@ The current script enables the election commission to run results based on the e
  
  *To change the data source for the analysis, we could just modify the below code specifying a new file*  
   **File_to_load = os.path.join (“Resources”,”election_results.csv”)**
+  
+  ![This is an image](https://github.com/Josna-Aykkara/Election_Analysis/blob/79735375c8e8c26a7b0fc41d85fa42cf2c2b4e3a/Resources/Change%20source%20data.JPG)
 
  Another example, for using the same main script is for analysing the Statewide election. The election commission would need to change the code to read the state instead of county rows from the corresponding data source file which is preferred to be in csv format.
 	
@@ -45,7 +48,7 @@ The current script enables the election commission to run results based on the e
 
 **County_name = row[1]** would be replaced with **State_name = row[1]**
 
- 
+ ![This is an image](https://github.com/Josna-Aykkara/Election_Analysis/blob/79735375c8e8c26a7b0fc41d85fa42cf2c2b4e3a/Resources/Extract%20items%20from%20rows.JPG)
 
 - The parent script can also be used to analyse the data further based on the additional information available in the data source file. It can be used by the election commission to get more insight of the towns with the most voter participation, gender wise participation analysis of the election, mode of vote, etc.
 
